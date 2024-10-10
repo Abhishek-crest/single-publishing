@@ -1,7 +1,7 @@
-import React from "react";
-import Header from "./header";
-import Sidebar from "./sidebar";
-import { Box } from "@mui/material";
+import React from 'react';
+import Header from './header';
+import Sidebar from './sidebar';
+import { Box } from '@mui/material';
 
 const Layout = ({ children }) => {
   return (
