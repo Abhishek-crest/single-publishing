@@ -1,0 +1,54 @@
+.auth-wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--tertiary-border);
+  &:before {
+    content: '';
+    background-image: url('../assets/images/auth/bakground.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.1;
+  }
+  h1 {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 600;
+  }
+  p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+  }
+  .MuiPaper-root {
+    max-width: 500px;
+  }
+}
+.paper-ui {
+  border-radius: 24px !important;
+  box-shadow: var(--box-shadow) !important;
+}
+.green-hover {
+  &:hover {
+    color: var(--green-700);
+    font-weight: 600;
+  }
+}
+@media (max-width: 360.98px) {
+  .remember-forgot-wrapper {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+}
